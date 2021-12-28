@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snakenladders.HelloController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Screenshot_2021-12-18_at_9.18.55_PM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="44.0" layoutY="220.0" onMouseClicked="#main" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/image-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

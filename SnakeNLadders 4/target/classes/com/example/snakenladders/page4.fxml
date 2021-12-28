@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snakenladders.HelloController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0">
+         <image>
+            <Image url="@images/Screenshot_2021-12-18_at_9.18.55_PM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="21.0" layoutY="41.0" onMouseClicked="#exit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Screenshot 2021-12-20 at 7.13.55 PM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="301.0" fitWidth="277.0" layoutX="12.0" layoutY="75.0" onMouseClicked="#win" pickOnBounds="true">
+         <image>
+            <Image url="@images/Snake-and-Ladder-Template-1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player1" fitHeight="41.0" fitWidth="23.0" layoutX="3.0" layoutY="369.0" onMouseClicked="#diceClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/eee.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player2" fitHeight="34.0" fitWidth="21.0" layoutX="25.0" layoutY="369.0" onMouseClicked="#diceClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/df.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="36.0" layoutX="52.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/IMG-20200428-WA0027-576x1024.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="36.0" layoutX="189.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Screenshot 2021-12-20 at 8.15.04 PM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="36.0" layoutX="123.0" layoutY="417.0" onMouseClicked="#diceClick" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/71826-200.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="number" layoutX="134.0" layoutY="460.0" text="Start" />
+      <Label layoutX="48.0" layoutY="460.0" style="-fx-background-color: #E6E6FA#E6E6FA;" text="Player 1" />
+      <Label layoutX="185.0" layoutY="460.0" style="-fx-background-color: #E6E6FA#E6E6FA;" text="Player 2" />
+      <ImageView fitHeight="40.0" fitWidth="36.0" layoutX="123.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/arrow.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

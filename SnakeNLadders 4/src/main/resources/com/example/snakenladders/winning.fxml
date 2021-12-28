@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snakenladders.HelloController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Screenshot_2021-12-18_at_9.18.55_PM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="257.0" fitWidth="259.0" layoutX="21.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/hh.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="132.0" layoutX="111.0" layoutY="301.0" onMouseClicked="#main" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/yy.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="winner" layoutX="128.0" layoutY="213.0" prefHeight="74.0" prefWidth="172.0" text="Winner" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.snakenladders.HelloController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/Screenshot_2021-12-18_at_9.18.55_PM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="150.0" layoutX="84.0" layoutY="239.0" onMouseClicked="#game" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/images_ccexpress.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="300.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/WhatsApp_Image_2021-12-18_at_13.43.39-removebg-preview (1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="28.0" layoutX="266.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/WhatsApp Image 2021-12-18 at 13.43.39.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="8.0" layoutY="10.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/IMG-20200428-WA0027-576x1024.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="166.0" layoutX="84.0" layoutY="343.0" onMouseClicked="#exit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Untitled_design-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="214.0" layoutX="42.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/image-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
